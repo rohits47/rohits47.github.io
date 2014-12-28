@@ -1,1 +1,1 @@
-This is the github repo for my personal website.
+This is the code and data for my personal website, rohits47.github.io .

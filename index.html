@@ -1,9 +1,13 @@
 ---
-layout: master
-title: Rohit's website
+layout: default
+title: Rohit Sanbhadti
 ---
 
-<div class="inner cover">
-    <h1 class="cover-heading">My name is Rohit Sanbhadti.</h1>
-    <p class="lead">Welcome to my small corner of the web.</p>
+<div class="home">
+	<h1>Blog Posts</h1>
+	<ul class="posts">
+		{% for post in site.posts %}
+		<li><span>{{ post.date | date_to_string }}</span> <span class="seperator">~</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
+		{% endfor %}
+	</ul>
 </div>

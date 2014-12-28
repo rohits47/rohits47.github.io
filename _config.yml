@@ -1,1 +1,5 @@
 markdown: kramdown
+#markdown: rdiscount
+permalink: pretty
+#pygments: true
+exclude: ['README.md']
