@@ -3,3 +3,4 @@ markdown: kramdown
 permalink: pretty
 #pygments: true
 exclude: ['README.md']
+baseurl: /
