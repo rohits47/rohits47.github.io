@@ -1,1 +1,1 @@
-This is the code and data for my personal website, rohits47.github.io .
+This is the code and data for my personal website, rohits47.com .
