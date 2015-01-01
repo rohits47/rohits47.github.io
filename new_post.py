@@ -112,6 +112,7 @@ def main():
         try:
             f.write('---\n')
             f.write('layout: post\n')
+            f.write('comments: True\n')
             f.write('title: ' + title + '\n')
             #f.write('summary:\n')
             #f.write('status: draft\n')
