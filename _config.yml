@@ -1,3 +1,6 @@
+name: Rohit Sanbhadti's Blog
+description: Rohit's home for anything and everything.
+url: http://rohits47.com
 markdown: kramdown
 #markdown: rdiscount
 permalink: pretty
